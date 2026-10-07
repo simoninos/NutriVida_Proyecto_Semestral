@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  background-color: #f9fff4;
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  padding: 10px;
+}
